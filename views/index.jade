@@ -232,6 +232,8 @@ block script
         // automatically assign various of pretty icons for link items
         if(link_url.match(/^.*.hackpad.com\//)){
           link_icon = "text file outline";
+        } else if(link_url.match(/^.*.hackmd.io\//)) {
+          link_icon = "file outline";
         } else if(link_url.match(/^.*.etherpad.mozilla.org\//)) {
           link_icon = "file outline";
         } else if(link_url.match(/^.*.groups.google.com\//)) {
